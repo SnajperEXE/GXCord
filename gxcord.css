@@ -21,8 +21,8 @@
 }
 
 .link__2ea32 {
-    background: var(--gx-main-bg);
-    border: 1px solid color-mix(in srgb, var(--gx-accent) 5%, transparent);
+    background: transparent;
+    border: transparent !important;
 }
 
 .link__2ea32:hover {
