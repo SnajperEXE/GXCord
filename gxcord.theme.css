@@ -7,6 +7,8 @@
 * @invite https://discord.gg/8uSp9AXZvT
 */
 
+@import url("https://snajperexe.github.io/GXCord/gxcord.css")
+
 :root {
 
 --gx-text-normal: #ffd8dd; /* Text where the element is not selected */
