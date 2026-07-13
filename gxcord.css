@@ -51,7 +51,7 @@
 }
 
 .embedFull__623de {
-    background: var(--gx-embeds);
+    background: var(--gx-other);
     border-top: 1px solid color-mix(in srgb, var(--gx-accent) 40%, transparent);
     border-bottom: 1px solid color-mix(in srgb, var(--gx-accent) 40%, transparent);
     border-right: 1px solid color-mix(in srgb, var(--gx-accent) 40%, transparent);
