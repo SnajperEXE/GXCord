@@ -425,10 +425,6 @@ foreignObject {
     background-color: var(--gx-accent2);
 }
 
- .channelInfo_c69b6d .text-xs\/semibold_cf4812 { /* Changes the "new" text in the Forum channel to black color for better readability */
-    color: var(--gx-text-selected) !important;
-}
-
 .primary_a22cb0 { /* Removes the border from primary buttons */
     border: none;
 }
@@ -491,4 +487,50 @@ button:has(path[d^="M19.3 20.7a1 1 0 0 0 1.4-1.4"]) .buttonChildrenWrapper_a22cb
 /* Mark as Read Button */
 .barButtonIcon__0f481 {
     color: var(--gx-text-selected);
+}
+
+
+.vc-settings-quickActions-pill {
+    background-color: var(--gx-accent);
+    color: var(--gx-text-selected);
+     clip-path: polygon(10px 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%, 0 10px);
+}
+
+.vc-settings-quickActions-pill:hover {
+    background-color: var(--gx-accent2);
+    color: var(--gx-text-selected);
+    clip-path: polygon(10px 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%, 0 10px);
+}
+
+.childWrapper__6e9f8 svg {
+    display: none;
+}
+
+.childWrapper__6e9f8 {
+    background: var(--gx-accent) !important;
+    -webkit-mask: url("https://snajperexe.github.io/GXCord/opera_gx.svg") center / 25px no-repeat;
+    mask: url("https://snajperexe.github.io/GXCord/opera_gx.svg") center / 30px no-repeat;
+}
+
+.channelMention {
+    background: var(--gx-accent) !important;
+    color: var(--gx-text-selected) !important;
+    border: 1px solid var(--gx-accent);
+    border-radius: 8px;
+    clip-path: polygon(14% 0, 98% 0, 100% 28%, 100% 72%, 98% 100%, 86% 100%, 2% 100%, 0 72%, 0 28%, 0 0);
+    overflow: hidden;
+}
+
+.unreadPill__908e2 {
+    background-color: var(--gx-accent);
+}
+
+.channelInfo_c69b6d .text-xs\/semibold_cf4812[style*="text-muted"] {
+    color: var(--gx-text-selected) !important;
+    background: var(--gx-accent);
+    clip-path: polygon(50% 10%, 100% 0, 90% 50%, 100% 100%, 50% 90%, 0 100%, 10% 50%, 0 0);
+    height: 15px;
+    min-width: 15px;
+    text-align: center;
+    line-height: 15px;
 }
