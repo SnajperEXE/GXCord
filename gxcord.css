@@ -705,3 +705,128 @@ button:has(path[d^="M19.3 20.7a1 1 0 0 0 1.4-1.4"]) .buttonChildrenWrapper_a22cb
     letter-spacing: .35em;
     color: color-mix(in srgb, var(--gx-accent) 70%, transparent);
 }
+
+/* Primary Buttons */
+
+.primary_a22cb0 { /* Removes the unnecessary discord's default background color for primary buttons */
+    background-color: transparent;
+}
+
+/* Primary Buttons - Hover */
+.primary_a22cb0:hover { /* Removes the unnecessary discord's default background color for primary buttons but for hover */
+    background-color: transparent;
+}
+
+/* Secondary Buttons */
+.secondary_a22cb0 { /* Removes the unnecessary discord's default background color for secondary buttons */
+    background-color: transparent;
+}
+
+/* Unread Bar */
+.unread__3b95d {
+    background-color: var(--gx-main-bg);
+    border: 1px solid var(--gx-accent);
+    color: var(--gx-accent);
+}
+
+/* Server Menu */
+.menu_c1e9c4 {
+    background-color: var(--gx-main-bg);
+    border: 1px solid var(--gx-accent);
+}
+
+/* Server Menu - Icons */
+.icon_c1e9c4 {
+    color: var(--gx-accent);
+}
+
+/* Server Menu - Icons (Hover) */
+.colorDefault_c1e9c4.focused_c1e9c4:not(.checkboxContainer_c1e9c4) path {
+    fill: var(--gx-accent2) !important;
+}
+
+/* Dividers & Separators */
+.sectionDivider__629e4,
+.header_f37cb1,
+.container__0d0f9,
+.separator_c1e9c4 {
+    border-bottom: 1px solid transparent;
+    background-color: transparent;
+}
+
+/* Search Bar (Obviously) */
+.searchBar_c322aa {
+    border: 1px solid var(--gx-accent);
+}
+
+/* SearchBar - Placeholder Text */
+.public-DraftEditorPlaceholder-inner {
+    color: var(--gx-text-normal);
+}
+
+/* Chat Box */
+.channelTextArea_f75fb0 {
+    border: 1px solid var(--gx-accent) !important;
+}
+
+/* Chat Box - Placeholder Text */
+.slateTextArea_ec4baf {
+color: var(--gx-text-normal);
+}
+
+/* Lottie Icons */
+.lottieIcon__5eb9b svg {
+    color: var(--gx-accent);
+}
+
+.wrapper__44df5 {
+    background-color: var(--gx-main-bg);
+    border: 1px solid var(--gx-accent);
+}
+
+/* Bold Text Markup */
+.markup__75297 strong {
+    color: var(--gx-accent);
+    background-color: color-mix(in srgb, var(--gx-accent2) 50%, transparent);
+}
+
+.root__5c1cf {
+    background: var(--gx-main-bg);
+    border: 1px solid var(--gx-accent);
+    border-radius: 12px;
+    color: var(--gx-accent)
+}
+
+
+.root__5c1cf .text-md\/semibold_cf4812 {
+    color: var(--gx-accent);
+}
+
+.root__5c1cf .header__5c1cf svg path {
+    fill: var(--gx-accent);
+}
+
+/*We Yeet Focused Target's Outline, duh... */
+.focusTarget__54e4b:focus {
+    outline: none;
+}
+
+/* Experiment Card - Variant Picker */
+.selectFieldContainer__0edde {
+    border: 1px solid var(--gx-accent2);
+    border-radius: 10px;
+}
+
+.root__49fc1 {
+    background: var(--gx-other);
+    border: 1px solid color-mix(in srgb, var(--gx-accent) 25%, transparent);
+}
+
+/* Ring that Focuses.. */
+.focus-rings-ring {
+    box-shadow: 0 0 0 4px var(--gx-accent) !important;
+}
+
+.scrollableContainer__74017 {
+    background-color: var(--gx-main-bg);
+}
