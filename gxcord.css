@@ -86,7 +86,7 @@
 
 /* Mentioned Message */
 .mentioned__5126c {
-    background-color: color-mix(in srgb, var(--gx-accent) 20%, transparent);
+    background-color: color-mix(in srgb, var(--gx-accent) 50%, transparent);
 }
 
 .mentioned__5126c:before {
