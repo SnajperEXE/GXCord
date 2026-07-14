@@ -504,7 +504,7 @@ scrollableContainer__74017,
     display: none;
 }
 
-.childWrapper__6e9f8 {
+.wrapper__6e9f8[data-list-item-id="guildsnav___home"] .childWrapper__6e9f8 {
     background: var(--gx-accent) !important;
     -webkit-mask: url("https://snajperexe.github.io/GXCord/opera_gx.svg") center / 25px no-repeat;
     mask: url("https://snajperexe.github.io/GXCord/opera_gx.svg") center / 30px no-repeat;
