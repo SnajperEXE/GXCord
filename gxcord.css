@@ -60,8 +60,6 @@
 }
 
 /* BACKGROUNDS */
-
-[class*="subtitleContainer_"] [class*="title_"],
 .container_d9c882,
 .header_d9c882,
 .container__9293f,
@@ -461,7 +459,11 @@ button:has(path[d^="M19.3 20.7a1 1 0 0 0 1.4-1.4"]) .buttonChildrenWrapper_a22cb
     border: unset !important;
 }
 
-/* Custom Background Image - Seamless via viewport-fixed positioning on each of the three panels */
+/* Custom Background Image - Seamless via viewport-fixed positioning */
+[class*="subtitleContainer_"] section[class*="title_"],
+.header_f37cb1,
+.searchBar_c322aa,
+.sidebar__5e434:after,
 .messagesWrapper__36d07,
 .container__2637a,
 .members_c8ffbb {
