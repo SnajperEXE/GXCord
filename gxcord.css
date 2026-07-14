@@ -86,7 +86,7 @@
 
 /* Mentioned Message */
 .mentioned__5126c {
-    background-color: color-mix(in srgb, var(--gx-accent) 50%, transparent);
+    background-color: color-mix(in srgb, var(--gx-accent) 25%, transparent);
 }
 
 .mentioned__5126c:before {
@@ -533,4 +533,28 @@ button:has(path[d^="M19.3 20.7a1 1 0 0 0 1.4-1.4"]) .buttonChildrenWrapper_a22cb
     min-width: 15px;
     text-align: center;
     line-height: 15px;
+}
+
+
+.containerDragBefore_c69b6d:before {
+    background-color: var(--gx-accent);
+}
+
+.cozy_c19a55 .timestamp_c19a55 {
+    color: var(--gx-accent);
+    font-weight: 700;
+}
+
+.popover_d6f39b {
+    background-color: var(--gx-main-bg);
+    border: 1px solid var(--gx-accent);
+}
+
+.popover_d6f39b .text-sm\/medium_cf4812 {
+    color: var(--gx-accent) !important;
+}
+
+.row__76f04 .timestamp__76f04 {
+    color: var(--gx-accent) !important;
+    text-shadow: 0 0 10px var(--gx-accent2);
 }
