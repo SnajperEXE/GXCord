@@ -65,8 +65,6 @@
 .container__9293f,
 .chatHeaderBar_a5700d,
 .container_f369db,
-.primary_a22cb0,
-.secondary_a22cb0,
 .container__34c2c,
 .scroller__6131a,
 .navScroller__409aa,
@@ -557,4 +555,154 @@ button:has(path[d^="M19.3 20.7a1 1 0 0 0 1.4-1.4"]) .buttonChildrenWrapper_a22cb
 .row__76f04 .timestamp__76f04 {
     color: var(--gx-accent) !important;
     text-shadow: 0 0 10px var(--gx-accent2);
+}
+
+.upload_aa605f {
+    background-color: var(--gx-main-bg);
+    border: 1px dashed var(--gx-accent);
+}
+
+.activityPanel__5e434 {
+    background-color: var(--gx-main-bg);
+    border: 1px solid var(--gx-accent);
+}
+
+.wrapper_f7ecac {
+    background-color: color-mix(in srgb, var(--gx-accent) 10%, var(--gx-accent2));
+    border: 1px solid var(--gx-main-bg);
+    box-shadow: 0 0 10px var(--gx-accent);
+}
+
+.button_f7ecac.dangerous_f7ecac {
+    color: color-mix(in srgb, var(--gx-accent) 100%, var(--gx-accent2));
+}
+
+.button_f7ecac.dangerous_f7ecac:hover {
+    color: color-mix(in srgb, var(--gx-accent2) 100%, var(--gx-accent));
+    background-color: var(--gx-accent);
+}
+
+
+.button_f7ecac:not(.button_f7ecac.dangerous_f7ecac) {
+    color: var(--gx-main-bg) !important;
+}
+
+.button_f7ecac:not(.button_f7ecac.dangerous_f7ecac):hover {
+    color: var(--gx-main-bg) !important;
+    background-color: var(--gx-accent);
+}
+
+.peopleColumn__133bf {
+    background-color: var(--gx-main-bg);
+}
+
+.peopleListItem_cc6179 {
+    border-top: 1px solid color-mix(in srgb, var(--gx-accent) 50%, transparent);
+    border-radius: unset;
+}
+
+.scroller__99e7c {
+    background-color: var(--gx-main-bg) !important;
+}
+
+.safetySettingsNotice__9536c {
+    background-color: var(--gx-accent2);
+}
+
+.safetySettingsNotice__9536c .text-sm\/medium_cf4812 {
+    color: var(--gx-main-bg) !important;
+    font-weight: 600;
+}
+
+.anchor_edefb8 {
+    color: var(--gx-accent);
+}
+
+.searchBar_e6b769 {
+    background-color: var(--gx-main-bg);
+}
+
+.rowButton_cc6179:hover {
+    background-color: color-mix(in srgb, var(--gx-accent2) 10%, transparent);
+}
+
+.privateChannels_e6b769 {
+    background: var(--gx-main-bg);
+}
+
+.interactiveSelected__972a0 .link__972a0 {
+    background: var(--gx-accent);
+    color: var(--gx-text-selected);
+    clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+}
+
+.interactiveSelected__972a0 .link__972a0:hover {
+    background: var(--gx-accent2);
+    color: var(--gx-text-normal);
+    clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+}
+
+.interactiveSelected__972a0 {
+    background: transparent !important;
+}
+
+.content_b6bcee {
+    background-color: var(--gx-main-bg);
+}
+
+.overlay-primary_a22cb0 {
+    background-color: transparent !important;
+    border: none;
+}
+
+.overlay-secondary_a22cb0 {
+    background-color: transparent !important;
+    border: none;
+}
+
+.channel__972a0:not(.dm__972a0) .interactive__972a0:not(.interactiveSelected__972a0):hover {
+    background: color-mix(in srgb, var(--gx-accent2) 25%, transparent);
+    clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+}
+
+.content_f75fb0 {
+    background-color: var(--gx-main-bg);
+}
+
+.image__33d12 {
+    position: relative;
+    background: none !important;
+}
+
+.image__33d12::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background: var(--gx-accent);
+    -webkit-mask: url("https://snajperexe.github.io/GXCord/opera_gx.svg")
+        center / contain no-repeat;
+    mask: url("https://snajperexe.github.io/GXCord/opera_gx.svg")
+        center / contain no-repeat;
+}
+
+.text__33d12 {
+    color: transparent; 
+}
+
+.text__33d12::before {
+    content: "No new message requests. Go make some friends.";
+    display: block;
+    text-align: center;
+    color: var(--gx-text-normal);
+}
+
+.text__33d12::after {
+    content: "ERR_INV_FRIENDS";
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: .35em;
+    color: color-mix(in srgb, var(--gx-accent) 70%, transparent);
 }
