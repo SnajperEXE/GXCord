@@ -453,6 +453,7 @@ button:has(path[d^="M19.3 20.7a1 1 0 0 0 1.4-1.4"]) .buttonChildrenWrapper_a22cb
 
 /* Custom Background Image - Seamless via viewport-fixed positioning */
 [class*="subtitleContainer_"] section[class*="title_"],
+.form_f75fb0,
 .header_f37cb1,
 .searchBar_c322aa,
 .sidebar__5e434:after,
@@ -832,4 +833,43 @@ color: var(--gx-text-normal);
 
 [class*="subtitleContainer_"] section[class*="title_"] {
     border-bottom: none;
+}
+
+
+.scroller__6b0e0,
+.scroller_affa7e {
+    background-color: var(--gx-main-bg);
+}
+
+.categoryHeader_d1405b {
+    background-color: var(--gx-accent);
+}
+
+.headerLabel__14245 {
+    color: var(--gx-text-selected);
+}
+
+.icon__1a58a {
+    color: var(--gx-text-selected);
+}
+
+.title__920ab {
+    color: var(--gx-accent) !important;
+}
+
+.description__920ab {
+    color: var(--gx-text-normal) !important;
+}
+
+.source__920ab {
+    color: var(--gx-accent) !important;
+}
+
+.stackedBars__74017 {
+    background: var(--gx-main-bg);
+    border-bottom: 1px solid var(--gx-accent) !important;
+}
+
+.stackedBars__74017 .text-md\/semibold_cf4812 {
+    color: var(--gx-accent) !important;
 }
