@@ -453,6 +453,7 @@ button:has(path[d^="M19.3 20.7a1 1 0 0 0 1.4-1.4"]) .buttonChildrenWrapper_a22cb
 
 /* Custom Background Image - Seamless via viewport-fixed positioning */
 [class*="subtitleContainer_"] section[class*="title_"],
+.container_f369db,
 .form_f75fb0,
 .header_f37cb1,
 .searchBar_c322aa,
@@ -872,4 +873,100 @@ color: var(--gx-text-normal);
 
 .stackedBars__74017 .text-md\/semibold_cf4812 {
     color: var(--gx-accent) !important;
+}
+
+.scroller__6131a {
+    background-color: var(--gx-main-bg);
+}
+
+/* Vencord - Local Themes Tab (Selected) */
+.top_aa8da2 .item_aa8da2.selected_aa8da2 {
+    color: var(--gx-accent);
+}
+
+/* Vencord - Local Themes Tab (Selected+After) */
+.top_aa8da2 .item_aa8da2.selected_aa8da2::after {
+    background: var(--gx-accent2);
+}
+/* Vencord - Local Themes Tab (Selected+Hover) */
+.top_aa8da2 .item_aa8da2.selected_aa8da2:hover {
+    color: var(--gx-accent2);
+}
+/* Vencord - Local Themes Tab (Not Selected) */
+.top_aa8da2 .item_aa8da2.brand_aa8da2:not(.item_aa8da2.selected_aa8da2) {
+    color: var(--gx-accent);
+}
+
+/* Vencord - Local Themes Tab (Not Selected+After) */
+.top_aa8da2 .item_aa8da2.brand_aa8da2:not(.item_aa8da2.selected_aa8da2):after {
+    background: var(--gx-accent);
+}
+
+.container__133bf,
+.container__9293f {
+    background-color: var(--gx-main-bg) !important;
+    border-top: none !important;
+}
+
+.container__9293f {
+    border-bottom: 1px solid color-mix(in srgb, var(--gx-accent) 25%, transparent) !important;
+}
+
+.tabBar__133bf .addFriend__133bf.addFriend__133bf.addFriend__133bf {
+    background-color: var(--gx-accent) !important;
+    color: var(--gx-text-selected);
+    font-weight: 600;
+}
+
+/* Friends List - Search Bar */
+.container__72c38 {
+    border: 1px solid var(--gx-accent);
+    border-radius: 10px;
+}
+
+.centerTarget_d144f8.dragOver_d144f8::before {
+    background: var(--gx-accent);
+    box-shadow:
+        0 0 4px color-mix(in srgb, var(--gx-accent) 70%, transparent),
+        0 0 12px color-mix(in srgb, var(--gx-accent) 35%, transparent);
+}
+
+/* New Unreads Bar */
+.bar__7aaec {
+    background: linear-gradient(90deg, #2A0009 0%, #5A0018 50%, #8F002A 100%) !important;
+    border: 1px solid color-mix(in srgb, var(--gx-accent) 45%, transparent);
+    border-radius: 10px;
+    color: var(--gx-text-selected);
+    box-shadow:
+        0 0 12px color-mix(in srgb, var(--gx-accent) 20%, transparent),
+        inset 0 1px 0 color-mix(in srgb, white 8%, transparent);
+    transition: .2s ease;
+}
+
+.bar__7aaec:hover {
+    background: linear-gradient(90deg, #35000C 0%, #69001D 50%, #B10033 100%) !important;
+    border-color: var(--gx-accent);
+    box-shadow:
+        0 0 16px color-mix(in srgb, var(--gx-accent) 35%, transparent);
+}
+
+/* New Unreads Bar - Text */
+.bar__7aaec .barText__7aaec {
+    color: var(--gx-text-selected) !important;
+    font-weight: 600;
+}
+
+.modeSelected__2ea32 .link__2ea32 .text-xs\/semibold_cf4812 {
+    color: var(--gx-text-selected) !important;
+}
+
+/* Reac to Post container */
+.container__34c2c {
+    background: var(--gx-main-bg) !important;
+    border: none;
+}
+
+/* The weird thing between forum post and post list */
+.resizeHandle__01ae2 {
+    background: var(--gx-main-bg);
 }
