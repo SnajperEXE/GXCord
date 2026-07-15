@@ -71,7 +71,6 @@
 .contentHeader_e9e3ed,
 .sidebar__5e434::after,
 .sidebarResizeHandle__5e434,
-.form_f75fb0 {
     background: var(--gx-main-bg) !important;
     background-attachment: fixed !important;
 }
@@ -829,4 +828,8 @@ color: var(--gx-text-normal);
 
 .scrollableContainer__74017 {
     background-color: var(--gx-main-bg);
+}
+
+[class*="subtitleContainer_"] section[class*="title_"] {
+    border-bottom: none;
 }
