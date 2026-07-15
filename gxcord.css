@@ -620,18 +620,6 @@ button:has(path[d^="M19.3 20.7a1 1 0 0 0 1.4-1.4"]) .buttonChildrenWrapper_a22cb
     background: var(--gx-main-bg);
 }
 
-.interactiveSelected__972a0 .link__972a0 {
-    background: var(--gx-accent);
-    color: var(--gx-text-selected);
-    clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
-}
-
-.interactiveSelected__972a0 .link__972a0:hover {
-    background: var(--gx-accent2);
-    color: var(--gx-text-normal);
-    clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
-}
-
 .interactiveSelected__972a0 {
     background: transparent !important;
 }
