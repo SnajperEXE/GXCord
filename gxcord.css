@@ -832,8 +832,9 @@ color: var(--gx-text-normal);
     background-color: var(--gx-main-bg);
 }
 
+/* Header above chat */
 [class*="subtitleContainer_"] section[class*="title_"] {
-    border-bottom: none !important; /* added !important to override discord's default value :) */
+    border-bottom: transparent !important; /* added !important to override discord's default value :) */
 }
 
 
