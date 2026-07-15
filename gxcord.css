@@ -447,6 +447,7 @@ button:has(path[d^="M19.3 20.7a1 1 0 0 0 1.4-1.4"]) .buttonChildrenWrapper_a22cb
 /* Custom Background Image - Seamless via viewport-fixed positioning */
 [class*="subtitleContainer_"] section[class*="title_"],
 .container_f369db,
+.scroller__99e7c,
 .form_f75fb0,
 .header_f37cb1,
 .searchBar_c322aa,
@@ -592,10 +593,6 @@ button:has(path[d^="M19.3 20.7a1 1 0 0 0 1.4-1.4"]) .buttonChildrenWrapper_a22cb
 .peopleListItem_cc6179 {
     border-top: 1px solid color-mix(in srgb, var(--gx-accent) 50%, transparent);
     border-radius: unset;
-}
-
-.scroller__99e7c {
-    background-color: var(--gx-main-bg) !important;
 }
 
 .safetySettingsNotice__9536c {
