@@ -1,11 +1,4 @@
 
-/* Selected Channel */
-.modeSelected__2ea32 .link__2ea32 {
-    background: var(--gx-accent);
-    color: var(--gx-text-selected);
-    clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
-}
-
 /* Channel Name */
 .name__2ea32:not(.modeSelected__2ea32) {
     color: var(--gx-text-normal);
