@@ -446,6 +446,7 @@ button:has(path[d^="M19.3 20.7a1 1 0 0 0 1.4-1.4"]) .buttonChildrenWrapper_a22cb
 
 /* Custom Background Image - Seamless via viewport-fixed positioning */
 [class*="subtitleContainer_"] section[class*="title_"],
+.content_f75fb0,
 .container_f369db,
 .scroller__99e7c,
 .form_f75fb0,
@@ -641,10 +642,6 @@ button:has(path[d^="M19.3 20.7a1 1 0 0 0 1.4-1.4"]) .buttonChildrenWrapper_a22cb
 .channel__972a0:not(.dm__972a0) .interactive__972a0:not(.interactiveSelected__972a0):hover {
     background: color-mix(in srgb, var(--gx-accent2) 25%, transparent);
     clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
-}
-
-.content_f75fb0 {
-    background-color: var(--gx-main-bg);
 }
 
 .image__33d12 {
@@ -1039,4 +1036,52 @@ color: var(--gx-text-normal);
     color-mix(in srgb, var(--gx-accent) 0%, transparent) 100%);
     width: calc(105% - 31px);
     margin: 0 4.5px;
+}
+
+.channel__972a0:not(.dm__972a0) .interactiveSelected__972a0 .link__972a0 {
+    background: var(--gx-accent);
+    color: var(--gx-text-selected);
+}
+
+.contentRegionShownSidebar__23e6b {
+    background: var(--gx-main-bg);
+}
+
+.sidebarRegion__23e6b {
+    background-color: var(--gx-main-bg) !important;
+}
+
+/*Server Menu - Selected */
+.item_aa8da2.selected_aa8da2 {
+    background: var(--gx-accent) !important;
+    color: var(--gx-text-selected);
+    clip-path: polygon( var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)),calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size) );
+}
+
+/*Server Menu - Hover */
+.side_aa8da2 .item_aa8da2:hover {
+    background: color-mix(in srgb, var(--gx-accent2) 35%, transparent) !important;
+    clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+}
+
+/* Server Menu */
+.sidebarRegionScroller__23e6b {
+    background: var(--gx-main-bg);
+}
+
+.header_c6bf1b,
+.titleContainer_e29cd7,
+.customScroller__23e6b {
+    background-color: var(--gx-main-bg);
+    border: none !important;
+}
+
+/* Role Permissions Container */
+.container_d8f25b {
+    background-color: var(--gx-main-bg);
+    border: 1px solid var(--gx-accent);
+}
+
+.container_d8f25b .text-md\/bold_cf4812 {
+    color: var(--gx-accent) !important;
 }
