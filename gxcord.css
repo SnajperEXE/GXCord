@@ -833,7 +833,7 @@ color: var(--gx-text-normal);
 }
 
 [class*="subtitleContainer_"] section[class*="title_"] {
-    border-bottom: none;
+    border-bottom: none !important; /* added !important to override discord's default value :) */
 }
 
 
