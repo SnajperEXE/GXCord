@@ -971,3 +971,94 @@ color: var(--gx-text-normal);
 .resizeHandle__01ae2 {
     background: var(--gx-main-bg);
 }
+
+
+.messageGroupWrapper_e8b59c,
+.messagesPopoutWrap_e8b59c {
+    background-color: var(--gx-main-bg) !important;
+    border: 1px solid var(--gx-accent);
+    border-radius: 15px;
+}
+
+.messageGroupWrapper_e8b59c {
+    border: 1px solid var(--gx-accent);
+}
+
+/* Pinned Messages Header */
+.header_e8b59c {
+    background-color: var(--gx-main-bg);
+}
+
+/* Pinned Messages - Header Text */
+.header_e8b59c .text-lg\/semibold_cf4812 {
+    color: var(--gx-accent) !important;
+}
+
+/* Removes the weird ass overlay that prevents you to click on a class in DevTools */
+.clickTrapContainer__59d0d.trapClicks__59d0d { /* We will yeet it because its annoying */
+    pointer-events: none !important;
+}
+
+/* Mention Bars / Pills */
+.mention__3b95d { /* the pill that appears at the bottom of the server/guild list */
+    background-color: var(--gx-accent);
+    color: var(--gx-text-selected);
+    box-shadow: 0 0 10px var(--gx-accent2);
+}
+
+/* that thing that appears above the avatar */
+.repliedMessageClickableSpine_c19a55 { /* this is a Reply Spine, duh... */
+    border-color: var(--gx-accent);
+}
+
+/* Activity Panels */
+.container__0f2e8 {
+    background-color: transparent;
+    border: 1px solid var(--gx-accent2);
+}
+
+.container__0f2e8:hover {
+    background-color: transparent;
+    border: 1px solid var(--gx-accent);
+}
+
+.container__7d20c {
+    background: var(--gx-main-bg);
+}
+
+.refresh-active-now .wrapper__00943 {
+    background: var(--gx-main-bg);
+    border: 1px solid var(--gx-accent);
+   border-top-right-radius:  10px;
+}
+
+/* Blocked Users List */
+.usersList_a72ffc {
+    background-color: var(--gx-main-bg);
+    border-top: 1px solid var(--gx-accent);
+    border-left: 1px solid var(--gx-accent);
+    border-right: 1px solid var(--gx-accent);
+    border-bottom: 1px solid var(--gx-accent);
+    border-radius: 10px;
+}
+
+/* Blocked Users Header */
+.header_a72ffc {
+    background-color: var(--gx-main-bg);
+}
+
+.card_a72ffc {
+    background-color: transparent !important;
+}
+
+.row_a72ffc {
+    border-bottom: 1px solid var(--gx-accent2);
+}
+
+.fixedContent__409aa:after {
+    background: linear-gradient( 180deg,
+    color-mix(in srgb, var(--gx-accent) 100%, transparent) 0%,
+    color-mix(in srgb, var(--gx-accent) 0%, transparent) 100%);
+    width: calc(105% - 31px);
+    margin: 0 4.5px;
+}
