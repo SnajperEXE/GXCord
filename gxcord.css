@@ -788,7 +788,7 @@ color: var(--gx-text-normal);
 /* Bold Text Markup */
 .markup__75297 strong {
     color: var(--gx-accent);
-    background-color: color-mix(in srgb, var(--gx-accent2) 50%, transparent);
+    background-color: color-mix(in srgb, var(--gx-accent2) 25%, transparent); /* reduced opacity so `color` value pops out nicely */
 }
 
 .root__5c1cf {
