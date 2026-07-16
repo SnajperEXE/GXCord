@@ -464,6 +464,8 @@ button:has(path[d^="M19.3 20.7a1 1 0 0 0 1.4-1.4"]) .buttonChildrenWrapper_a22cb
 .sidebar__5e434:after,
 .messagesWrapper__36d07,
 .container__2637a,
+.peopleColumn__133bf,
+.container__7d20c,
 .members_c8ffbb {
     background: linear-gradient(var(--gx-main-bg), var(--gx-accent)), var(--gx-image-bg) !important;
     background-size: cover !important;
@@ -594,10 +596,6 @@ button:has(path[d^="M19.3 20.7a1 1 0 0 0 1.4-1.4"]) .buttonChildrenWrapper_a22cb
 .button_f7ecac:not(.button_f7ecac.dangerous_f7ecac):hover {
     color: var(--gx-main-bg) !important;
     background-color: var(--gx-accent);
-}
-
-.peopleColumn__133bf {
-    background-color: var(--gx-main-bg);
 }
 
 .peopleListItem_cc6179 {
@@ -1004,10 +1002,6 @@ color: var(--gx-text-normal);
 .container__0f2e8:hover {
     background-color: transparent;
     border: 1px solid var(--gx-accent);
-}
-
-.container__7d20c {
-    background: var(--gx-main-bg);
 }
 
 .refresh-active-now .wrapper__00943 {
