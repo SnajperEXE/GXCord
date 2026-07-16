@@ -27,6 +27,11 @@
     color: var(--gx-accent2);
 }
 
+/* Selected Channel */
+.modeSelected__2ea32 .link__2ea32 {
+    background-color: var(--gx-accent);
+    clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+}
 
 /* Channel Icons */
 
@@ -446,6 +451,10 @@ button:has(path[d^="M19.3 20.7a1 1 0 0 0 1.4-1.4"]) .buttonChildrenWrapper_a22cb
 
 /* Custom Background Image - Seamless via viewport-fixed positioning */
 [class*="subtitleContainer_"] section[class*="title_"],
+.container__5573a,
+.container__5573a.active__5573a,
+.contentContainer__89463,
+.sidebarContainer__89463,
 .content_f75fb0,
 .container_f369db,
 .scroller__99e7c,
@@ -641,7 +650,7 @@ button:has(path[d^="M19.3 20.7a1 1 0 0 0 1.4-1.4"]) .buttonChildrenWrapper_a22cb
 
 .channel__972a0:not(.dm__972a0) .interactive__972a0:not(.interactiveSelected__972a0):hover {
     background: color-mix(in srgb, var(--gx-accent2) 25%, transparent);
-    clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+    clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size)) !important;
 }
 
 .image__33d12 {
@@ -1041,6 +1050,7 @@ color: var(--gx-text-normal);
 .channel__972a0:not(.dm__972a0) .interactiveSelected__972a0 .link__972a0 {
     background: var(--gx-accent);
     color: var(--gx-text-selected);
+    clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
 }
 
 .contentRegionShownSidebar__23e6b {
@@ -1084,4 +1094,14 @@ color: var(--gx-text-normal);
 
 .container_d8f25b .text-md\/bold_cf4812 {
     color: var(--gx-accent) !important;
+}
+
+/* Message Divider */
+.divider__5126c {
+    background-color: var(--gx-accent);
+}
+
+/* Nitro Level Card - Hover */
+.parentContainer__5573a:hover .container__5573a {
+    background: var(--gx-main-bg);
 }
