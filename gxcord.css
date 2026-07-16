@@ -473,6 +473,7 @@ button:has(path[d^="M19.3 20.7a1 1 0 0 0 1.4-1.4"]) .buttonChildrenWrapper_a22cb
 .peopleListItem_cc6179,
 .privateChannels_e6b769,
 .scroller__7d20c,
+.sidebar__409aa,
 .members_c8ffbb {
     background: linear-gradient(var(--gx-main-bg), var(--gx-accent)), var(--gx-image-bg) !important;
     background-size: cover !important;
