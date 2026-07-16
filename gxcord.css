@@ -465,7 +465,7 @@ button:has(path[d^="M19.3 20.7a1 1 0 0 0 1.4-1.4"]) .buttonChildrenWrapper_a22cb
 .messagesWrapper__36d07,
 .container__2637a,
 .members_c8ffbb {
-    background: linear-gradient(var(--gx-accent), var(--gx-accent)), var(--gx-image-bg) !important;
+    background: linear-gradient(var(--gx-main-bg), var(--gx-accent)), var(--gx-image-bg) !important;
     background-size: cover !important;
     background-position: center;
     background-attachment: fixed !important;
