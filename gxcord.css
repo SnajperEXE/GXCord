@@ -11,6 +11,7 @@
 .nowPlayingColumn__133bf, /* Now Playing Column */
 .scroller__99e7c, /* Friend List & Direct Messages */
 .peopleColumn__133bf, /* Online Friends */
+.membersWrap_c8ffbbm, /* Member List Wrapper */
 .members_c8ffbb { /* Member List */
     background: linear-gradient(var(--gx-main-bg), var(--gx-accent)), var(--gx-image-bg) !important;
     background-size: cover !important;
