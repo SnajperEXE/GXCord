@@ -236,8 +236,8 @@ nav[class*="guilds_"]::after {
     background: transparent;
 }
 
-.member_c8ffbb {
-    background-color: var(--gx-main-bg);
+.member_c8ffbb:not(.nameplated__91a9d) {
+    background-color: transparent !important;
 }
 
 .lowerBadge_cc5dd2 > .numberBadge__463b7 {
