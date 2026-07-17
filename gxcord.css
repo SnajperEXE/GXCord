@@ -10,7 +10,7 @@
 .messagesWrapper__36d07, /* Chat */
 .nowPlayingColumn__133bf, /* Now Playing Column */
 .scroller__99e7c, /* Friend List & Direct Messages */
-.peopleColumn__133bf, /* Online Friends */
+.peopleColumn__133bf, /* Online Friends */d
 .members_c8ffbb { /* Member List */
     background: linear-gradient(var(--gx-main-bg), var(--gx-accent)), var(--gx-image-bg) !important;
     background-size: cover !important;
@@ -1092,4 +1092,67 @@ color: var(--gx-text-normal);
 
 .contentWrapper__08434 {
     border: 1px solid var(--gx-accent);
+}
+
+/* Inbox, Help and Experiments icons */
+.clickable__81391 {
+    color: var(--gx-accent);
+}
+
+/* Inbox, Help and Experiments icons - Hover */
+.clickable__81391:hover:not(.disabled__81391) {
+    color: var(--gx-accent2);
+    background-color: color-mix(in srgb, var(--gx-accent) 15%, transparent);
+}
+
+/* Windows Buttons */
+.winButton_c38106 {
+    color: var(--gx-accent);
+    transition: .15s ease;
+}
+
+/* Windows Buttons - Minimize */
+.winButtons_c38106 > :nth-child(1):hover {
+    color: #5ad769;
+    background: rgb(90 215 105 / 12%);
+}
+
+/* Windows Buttons - Resize / Restore Down */
+.winButtons_c38106 > :nth-child(2):hover {
+    color: #ffb347;
+    background: rgb(255 179 71 / 12%);
+}
+
+/* Windows Buttons - Close */
+.winButtons_c38106 > :nth-child(3):hover {
+    color: #ff4b4b;
+    background: rgb(255 75 75 / 15%);
+}
+
+/* Shared Hover Effects */
+.winButtons_c38106 > *:hover {
+    text-shadow: 0 0 8px currentColor;
+    transition: .15s ease;
+}
+
+/* Update Ready */
+.clickable__81391:has(path[fill="var(--green-360)"]) {
+    animation: updatePulse 2s infinite ease-in-out;
+}
+
+.clickable__81391:has(path[fill="var(--green-360)"]):hover {
+    filter: drop-shadow(0 0 10px currentColor);
+}
+
+.clickable__81391:has(path[fill="var(--green-360)"]) path {
+    fill: var(--gx-accent) !important;
+}
+
+@keyframes updatePulse {
+    0%, 100% {
+        filter: brightness(1);
+    }
+    50% {
+        filter: brightness(5) drop-shadow(0 0 10px currentColor);
+    }
 }
