@@ -1,3 +1,48 @@
+/* Custom Background Image - Seamless via viewport-fixed positioning */
+[class*="subtitleContainer_"] section[class*="title_"], /* Header above chat */
+.container__551b0, /* Discover Page Sidebar Menu */
+.content_f75fb0, /* Message Requests Page */
+.content_b6bcee, /* Quests page */
+.shop__08415, /* Discord's Shop Page */
+.privateChannels_e6b769, /* Direct Messages - Footer */
+.form_f75fb0, /* Chat Input Inner */
+.container__2637a, /* Channel List */
+.messagesWrapper__36d07, /* Chat */
+.nowPlayingColumn__133bf, /* Now Playing Column */
+.scroller__99e7c, /* Friend List & Direct Messages */
+.peopleColumn__133bf, /* Online Friends */
+.members_c8ffbb { /* Member List */
+    background: linear-gradient(var(--gx-main-bg), var(--gx-accent)), var(--gx-image-bg) !important;
+    background-size: cover !important;
+    background-position: center;
+    background-attachment: fixed !important;
+    background-blend-mode: multiply;
+    transform: none !important;
+}
+
+
+/* BACKGROUNDS */
+.childContainer__91a9d,
+.resizeHandle__01ae2,
+.container__8a031,
+.container_d9c882,
+.header_d9c882,
+.container__9293f,
+.chatHeaderBar_a5700d,
+.container_f369db,
+.container__34c2c,
+.scroller__6131a,
+.navScroller__409aa,
+.contentHeader_e9e3ed,
+.sidebar__5e434::after,
+.sidebarResizeHandle__5e434,
+.sidebarRegionScroller__23e6b,
+.contentRegionShownSidebar__23e6b,
+.sidebarRegion__23e6b,
+.parentContainer__5573a:hover .container__5573a {
+    background: var(--gx-main-bg) !important;
+    background-attachment: fixed !important;
+}
 
 /* Channel Name */
 .name__2ea32:not(.modeSelected__2ea32) {
@@ -106,23 +151,16 @@
     position: relative;
 }
 
+.container__9293f,
+.searchBar_e6b769, /* Start Conversation Bar */
 [class*="Container_"] section[class*="title_"]::before {
     content: "";
     position: absolute;
-
     left: 0;
     top: 0;
-
     width: 100%;
     height: 1px;
-
-    background: linear-gradient(
-        to right,
-        var(--gx-accent),
-        var(--gx-accent2) 10%,
-        transparent 50%,
-        transparent
-    );
+    background: linear-gradient( to right, var(--gx-accent), var(--gx-accent2) 10%, transparent 50%, transparent);
 
     pointer-events: none;
 }
@@ -191,10 +229,6 @@ nav[class*="guilds_"]::after {
 
 .spriteGreyscale__04eed {
     opacity: 1 !important;
-}
-
-.childContainer__91a9d {
-    background: var(--gx-main-bg);
 }
 
 .childContainer__91a9d.nameplated__91a9d {
@@ -845,10 +879,6 @@ color: var(--gx-text-normal);
     border-top: none !important;
 }
 
-.container__9293f {
-    border-bottom: 1px solid color-mix(in srgb, var(--gx-accent) 25%, transparent) !important;
-}
-
 .tabBar__133bf .addFriend__133bf.addFriend__133bf.addFriend__133bf {
     background-color: var(--gx-accent) !important;
     color: var(--gx-text-selected);
@@ -902,12 +932,6 @@ color: var(--gx-text-normal);
     background: var(--gx-main-bg) !important;
     border: none;
 }
-
-/* The weird thing between forum post and post list */
-.resizeHandle__01ae2 {
-    background: var(--gx-main-bg);
-}
-
 
 .messageGroupWrapper_e8b59c,
 .messagesPopoutWrap_e8b59c {
