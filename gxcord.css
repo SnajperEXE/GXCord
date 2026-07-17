@@ -152,7 +152,6 @@
 }
 
 .container__9293f,
-.searchBar_e6b769, /* Start Conversation Bar */
 [class*="Container_"] section[class*="title_"]::before {
     content: "";
     position: absolute;
@@ -161,8 +160,11 @@
     width: 100%;
     height: 1px;
     background: linear-gradient( to right, var(--gx-accent), var(--gx-accent2) 10%, transparent 50%, transparent);
-
     pointer-events: none;
+}
+
+.sidebarList__5e434 {
+    border-top: 1px solid color-mix(in srgb, var(--gx-accent) 50%, transparent);
 }
 
 .sidebarResizeHandle__5e434 {
@@ -1080,4 +1082,8 @@ color: var(--gx-text-normal);
 
 .scrollerFade__7f9c0 {
     -webkit-mask-image: none !important;
+}
+
+.footer__49fc1 {
+    background-color: var(--gx-other);
 }
