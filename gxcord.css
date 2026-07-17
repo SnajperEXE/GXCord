@@ -164,7 +164,6 @@
     width: 100%;
     height: 1px;
     background: linear-gradient( to right, var(--gx-accent), var(--gx-accent2) 10%, transparent 50%, transparent);
-    pointer-events: none;
 }
 
 .sidebarList__5e434 {
