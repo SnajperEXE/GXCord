@@ -198,10 +198,6 @@ nav[class*="guilds_"]::after {
     border-top: none !important;
 }
 
-.theme-dark {
-    background-color: var(--gx-main-bg);
-}
-
 .container__2637a {
     border-top: 1px solid var(--gx-accent);
 }
@@ -1226,5 +1222,65 @@ color: var(--gx-text-normal);
     border: 1px solid var(--gx-accent);
 }
 
-[isGradientBase]:not(.chatTypingGradientAtBottom__36d07) {
-    background-color: red;
+/* Expression Picker */
+.positionLayer__08434 {
+    transform-origin: bottom right;
+    animation: gxPopup .16s cubic-bezier(.22, 1, .36, 1);
+    will-change: transform, opacity;
+}
+
+/* Expression Picker Animations *//
+@keyframes gxPopup {
+    from {
+        opacity: 0;
+        transform: translateY(10px) scale(.96);
+        filter: blur(3px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+        filter: blur(0);
+    }
+}
+
+.scrollerBase__99f8c {
+    background-color: var(--gx-main-bg);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.container_fed6d3 {
+    background-color: transparent !important;
+}
+
+/* Expression Picker Header */
+.header_fed6d3 {
+    background-color: var(--gx-main-bg);
+}
+
+/* Emoji Picker - Server Header */
+.wrapper__14245 {
+    background-color: var(--gx-accent);
+}
+
+/* Emoji Picker - Emoji Details */
+.inspector_aeaaeb {
+    background-color: var(--gx-main-bg);
+    border-bottom-right-radius: 10px;
+}
+
+.unicodeShortcut_b9ee0c {
+    background-color: var(--gx-main-bg);
+    color: var(--gx-accent);
+}
+
+/* Popular Server Emojis */
+.topGuildEmojiBadge_aeaaeb {
+    background: linear-gradient(268deg, var(--gx-accent), var(--gx-accent2) 100%);
+}
+
+/* If a guild icon has background, removes it */
+.guildIcon__0fa6d {
+    background-color: var(--gx-main-bg) !important;
+}
