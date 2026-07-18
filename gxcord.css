@@ -1285,3 +1285,81 @@ color: var(--gx-text-normal);
 .guildIcon__0fa6d {
     background-color: var(--gx-main-bg) !important;
 }
+
+.childContainer__91a9d {
+    background-color: transparent !important;
+}
+
+.lookFilled__201d5.colorBrand__201d5 {
+    background-color: var(--gx-accent);
+    color: var(--gx-text-normal);
+
+}
+
+/* Spoiler Message - Hidden */
+.spoilerContent__299eb.hidden__299eb {
+    background-color: var(--gx-accent);
+}
+
+/* Revealed Spoiler Message */
+.obscuredTextContentInner__299eb span {
+    background-color: color-mix(in srgb, var(--gx-accent) 20%, transparent);
+    color: var(--gx-accent);
+    font-weight: 700;
+    border-radius: 8px;
+    letter-spacing: 1px;
+    display: inline-block !important;
+}
+
+/* Tooltips */
+.tooltip_fa450d {
+    background: var(--gx-accent);
+    backdrop-filter: blur(3px);
+
+.caretIcon_fa450d .caretFill_fa450d {
+        fill: var(--gx-accent);
+    }
+}
+
+/* Tooltip - Text */
+.tooltipContent_fa450d .defaultColor__4bd52 { 
+    color: var(--gx-text-selected); 
+}
+
+.tooltipContent_fa450d .defaultColor__4bd52 /* Regular Tooltips */,
+.guildTooltipWrapper_b1f768 /* Server Folders Tooltips */,
+.guildNameText_b1f768 /* Server Name Tooltips */ {
+    color: var(--gx-text-selected) !important;
+}
+
+/* APP Badge */
+.botTagRegular__82f07 {
+    background: linear-gradient(90deg, var(--gx-accent) 0%, var(--gx-accent2) 100%);
+    color: var(--gx-text-selected);
+}
+
+/* APP Badge - Checkmark */
+.botTagRegular__82f07 svg > path {
+    fill: var(--gx-text-selected)
+}
+
+/* Jump to present Bar */
+.jumpToPresentBar__0f481 {
+    background-color: var(--gx-main-bg);
+    border: 1px solid var(--gx-accent);
+}
+
+/* Jump to present - Text */
+.jumpToPresentBar__0f481 .text-sm\/medium__0f481 {
+    color: var(--gx-text-normal);
+}
+/* Code Block */
+.markup__75297 code {
+    background: color-mix(in oklab, var(--gx-accent) 8%, transparent);
+    border: 1px solid var(--gx-accent) !important;
+}
+
+/* Code Block - Comment */
+.hljs-comment {
+    color: color-mix(in oklab, var(--gx-accent) 100%, #000 0%);
+}
