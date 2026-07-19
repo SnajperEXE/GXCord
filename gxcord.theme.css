@@ -4,13 +4,13 @@
 * @version 1.0.0
 * @description A modern, highly customizable Discord theme inspired by Opera GX.
 * @source https://snajperexe.github.io/GXCord/
-* @invite https://discord.gg/8uSp9AXZvT
+* @invite 8uSp9AXZvT
 */
 
+/* Imports */
 @import url("https://snajperexe.github.io/GXCord/gxcord.css");
 
 :root {
-
 --gx-text-normal: #ffd8dd; /* Text where the element is not selected */
 --gx-text-selected: #0d0003; /* Text Where the element is selected */
 --gx-accent: #ff0048; /* Main Color, icons, selected state, scrollbar etc */
