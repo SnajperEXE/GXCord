@@ -13,6 +13,7 @@
 .nowPlayingColumn__133bf, /* Now Playing Column */
 .scroller__99e7c, /* Friend List & Direct Messages */
 .peopleColumn__133bf, /* Online Friends */
+.privateChannels_e6b769m /* Friends List - Footer */
 .members_c8ffbb { /* Member List */
     background: linear-gradient(var(--gx-main-bg), var(--gx-accent)), var(--gx-image-bg) !important;
     background-size: cover !important;
@@ -34,6 +35,7 @@
 .container__34c2c,
 .scroller__6131a,
 .navScroller__409aa,
+.header_fed6d3m /* Expression Picker */
 .contentHeader_e9e3ed,
 .contentWrapper__08434, /* Gifs Popup */
 .sidebar__5e434::after,
@@ -1253,11 +1255,6 @@ color: var(--gx-text-normal);
 
 .container_fed6d3 {
     background-color: transparent !important;
-}
-
-/* Expression Picker Header */
-.header_fed6d3 {
-    background-color: var(--gx-main-bg);
 }
 
 /* Emoji Picker - Server Header */
