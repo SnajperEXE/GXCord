@@ -1360,3 +1360,126 @@ color: var(--gx-text-normal);
 .hljs-comment {
     color: color-mix(in oklab, var(--gx-accent) 100%, #000 0%);
 }
+
+/* Roles / Members Channel Permissions */
+.scroller__53543 {
+    background-color: var(--gx-main-bg);
+}
+
+/* Separator */
+.separator_aa8da2 {
+    background-color: color-mix( in oklab, var(--gx-accent) 12.156862745098039%, transparent) !important;
+}
+
+/* Divider (not same as Separator for some reason */
+.divider__1de9c {
+    border-top: 1px thin solid color-mix( in oklab, var(--gx-accent) 12.156862745098039%, transparent) !important;
+}
+
+/* Role & Member List */
+.roleMemberList__1a4ef { /* Shows in private channel settings */
+    background-color: var(--gx-main-bg);
+    border-bottom: 1px solid var(--gx-accent);
+    border-left: 1px solid var(--gx-accent);
+    border-right: 1px solid var(--gx-accent);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/* Who can access this? Header */
+.folderHeader__1a4ef {
+    background: var(--gx-main-bg);
+    border-left: 1px solid var(--gx-accent);
+    border-right: 1px solid var(--gx-accent);
+}
+
+/* Private Channel Header */
+.cardContent_f62fce {
+    background: color-mix( in oklab, var(--gx-main-bg) 12%, transparent);
+    border: 1px solid var(--gx-accent);
+    border-radius: 10px;
+}
+
+/* Permission Sync Card */
+.card_b651ff {
+    background: color-mix(in oklab, hsl(232.5 calc(1*6.557%) 23.922% /1) 100%, var(--gx-main-bg), 0%);
+}
+
+/* Role Permission Controls */
+.item__344e6,
+passthrough__344e6, /* Default (/) */
+.passthrough__344e6.selected__344e6, /* Default Selected (/) */
+.allow__344e6, /* Enabled (✓) */
+.allow__344e6.selected__344e6, /* Enabled Selected (✓) */
+.deny__344e6, /* Disabled (X) */
+.deny__344e6.selected__344e6 { /* Disabled Selected (X) */
+    background-color: var(--gx-main-bg) !important;
+}
+
+.item__344e6 {
+    border-bottom: 1px solid var(--gx-accent);
+    border-top: 1px solid var(--gx-accent);
+}
+
+.deny__344e6, /* Disabled (X) */
+.deny__344e6.selected__344e6 { /* Disabled Selected (X) */
+    border-left: 1px solid var(--gx-accent);
+}
+
+.allow__344e6, /* Enabled (✓) */
+.allow__344e6.selected__344e6 { /* Enabled Selected (✓) */
+    border-right: 1px solid var(--gx-accent);
+}
+
+/* Selected Role Permission Controls */
+.passthrough__344e6.selected__344e6, /* Default Selected (/) */
+.allow__344e6.selected__344e6, /* Enabled Selected (✓) */
+.deny__344e6.selected__344e6 { /* Disabled Selected (X) */
+    background-color: color-mix( in oklab, var(--gx-main-bg) 80%, white) !important;
+}
+
+/* Save Changes Button */
+.container__9a9f9 .lookFilled__201d5.colorGreen__201d5 {
+    background: var(--gx-main-bg) !important;
+    border: 1px solid var(--gx-accent) !important;
+    color: var(--gx-accent) !important;
+}
+
+/* Unsaved Changes Container */
+.container__9a9f9 {
+    background-color: var(--gx-main-bg);
+    border-color: color-mix(in oklab, var(--gx-accent) 60%, transparent);
+}
+
+/* Unsaved Changes Message */
+.container__9a9f9 .message__9a9f9 {
+    color: var(--gx-text-normal);
+}
+
+/* Reset Button */
+.lookLink__201d5.colorPrimary__201d5 {
+    color: var(--gx-text-selected) !important;
+    background-color: var(--gx-accent);
+}
+
+/* Close Button */
+.closeButton_c2b141 {
+    color: var(--gx-accent);
+    background-color: var(--gx-main-bg);
+}
+
+/* ESC Text */
+.keybind_c2b141 {
+    color: var(--gx-accent);
+}
+
+/* Close Button (Hover) */
+.closeButton_c2b141:hover {
+    color: var(--gx-accent2) !important;
+    background-color: var(--gx-main-bg);
+}
+
+/* ESC Text (Hover) */
+.closeButton_c2b141:hover+.keybind_c2b141 {
+    color: var(--gx-accent2);
+}
