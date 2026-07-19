@@ -1482,3 +1482,15 @@ passthrough__344e6, /* Default (/) */
 .closeButton_c2b141:hover+.keybind_c2b141 {
     color: var(--gx-accent2);
 }
+
+/* Emoji Details */
+.guildSection_d5cd2d,
+.popoutContainer__0f481 {
+    background-color: var(--gx-main-bg);
+    border: 1px solid var(--gx-accent);
+}
+
+/* Emoji Name (eg: :smiley:) */
+.emojiSection_d5cd2d .text-md\/semibold_cf4812 {
+    color: var(--gx-accent);
+}
