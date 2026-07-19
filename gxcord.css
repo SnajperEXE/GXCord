@@ -9,7 +9,6 @@
 .privateChannels_e6b769, /* Direct Messages - Footer */
 .form_f75fb0, /* Chat Input Inner */
 .container__2637a, /* Channel List */
-.contentHeader_e9e3ed, /* Settings - Account Header */
 .messagesWrapper__36d07, /* Chat */
 .nowPlayingColumn__133bf, /* Now Playing Column */
 .scroller__99e7c, /* Friend List & Direct Messages */
@@ -37,7 +36,7 @@
 .scroller__6131a,
 .navScroller__409aa,
 .header_fed6d3m /* Expression Picker */
-.contentHeader_e9e3ed,
+.contentHeader_e9e3ed,  /* Settings - Account Header */
 .contentWrapper__08434, /* Gifs Popup */
 .sidebar__5e434::after,
 .vc-notification, /* Vencord Notificaiton Card */
