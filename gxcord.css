@@ -13,7 +13,7 @@
 .nowPlayingColumn__133bf, /* Now Playing Column */
 .scroller__99e7c, /* Friend List & Direct Messages */
 .peopleColumn__133bf, /* Online Friends */
-.privateChannels_e6b769 /* Friends List - Footer */
+.privateChannels_e6b769, /* Friends List - Footer */
 .members_c8ffbb { /* Member List */
     background: linear-gradient(var(--gx-main-bg), var(--gx-accent)), var(--gx-image-bg) !important;
     background-size: cover !important;
