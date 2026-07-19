@@ -12,26 +12,18 @@ GXCord transforms Discord with a sleek gaming-inspired interface, bold accent co
 - 🖼️ Custom wallpaper support
 - 🔺 Geometric UI inspired by classic Opera GX
 - 💎 Custom mention badges
-- ⬡ Unique server icon shapes
-- 🌈 Gradient support where applicable
 - 📦 Clean and organized code
 - ⚡ Lightweight and easy to customize
 
 ---
 
-## 💡 Inspiration
+## Previews:
 
-GXCord is inspired by the classic visual identity of Opera GX while introducing its own design language through:
+![ThemeColors](https://i.imgur.com/hjevWRF.gif)
+![Settings](https://snajperexe.github.io/GXCord/screenshots/image_2026-07-20_002133814.png)
 
-- Angular UI
-- Chamfered components
-- Bold accent colors
-- Modern gaming aesthetic
-- Extensive customization
 
-It is **not** intended to be a pixel-perfect recreation.
-
----
+![Settings](https://snajperexe.github.io/GXCord/screenshots/image_2026-07-20_001323361.png)
 
 ## 🚀 Installation
 
@@ -39,7 +31,7 @@ It is **not** intended to be a pixel-perfect recreation.
 2. Download `theme.css`.
 3. Place it inside your Themes folder.
 4. Enable **GXCord**.
-5. Customize the variables to your liking.
+5. Customize the colors to your liking.
 
 ---
 
