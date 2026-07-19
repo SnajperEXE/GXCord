@@ -9,6 +9,7 @@
 .privateChannels_e6b769, /* Direct Messages - Footer */
 .form_f75fb0, /* Chat Input Inner */
 .container__2637a, /* Channel List */
+.contentHeader_e9e3ed, /* Settings - Account Header */
 .messagesWrapper__36d07, /* Chat */
 .nowPlayingColumn__133bf, /* Now Playing Column */
 .scroller__99e7c, /* Friend List & Direct Messages */
@@ -1032,7 +1033,6 @@ color: var(--gx-text-normal);
 .item_aa8da2.selected_aa8da2 {
     background: var(--gx-accent) !important;
     color: var(--gx-text-selected);
-    clip-path: polygon( var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)),calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size) );
 }
 
 /*Server Menu - Hover */
