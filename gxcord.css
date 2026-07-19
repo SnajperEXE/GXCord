@@ -5,7 +5,7 @@
 .content_b6bcee, /* Quests page */
 .aside_f58343, /* Profile Frames Background */
 .shop__08415, /* Discord's Shop Page */
-.container_f369db, /* Forum Posts
+.container_f369db, /* Forum Posts */
 .privateChannels_e6b769, /* Direct Messages - Footer */
 .form_f75fb0, /* Chat Input Inner */
 .container__2637a, /* Channel List */
@@ -13,7 +13,7 @@
 .nowPlayingColumn__133bf, /* Now Playing Column */
 .scroller__99e7c, /* Friend List & Direct Messages */
 .peopleColumn__133bf, /* Online Friends */
-.privateChannels_e6b769m /* Friends List - Footer */
+.privateChannels_e6b769 /* Friends List - Footer */
 .members_c8ffbb { /* Member List */
     background: linear-gradient(var(--gx-main-bg), var(--gx-accent)), var(--gx-image-bg) !important;
     background-size: cover !important;
