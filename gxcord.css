@@ -50,6 +50,12 @@
     background-attachment: fixed !important;
 }
 
+/* Members Container */
+.container__7641b {
+    border-inline-start: none !important;
+    background-color: var(--gx-main-bg);
+}
+
 /* Channel Name */
 .name__2ea32:not(.modeSelected__2ea32) {
     color: var(--gx-text-normal);
