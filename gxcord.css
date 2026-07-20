@@ -1500,3 +1500,102 @@ passthrough__344e6, /* Default (/) */
 .emojiSection_d5cd2d .text-md\/semibold_cf4812 {
     color: var(--gx-accent);
 }
+
+/* Inbox */
+
+.scroller__2692d {
+    background-color: var(--gx-main-bg);
+}
+
+/* Inbox Messages */
+.messages__1ccd1 {
+    background-color: var(--gx-main-bg);
+    border-left: 1px solid var(--gx-accent);
+    border-right: 1px solid var(--gx-accent);
+    border-bottom: 1px solod var(--gx-accent);
+    display: grid;
+}
+
+/* Inbox Header - Colapser */
+.channelHeader__996b5.collapsed__996b5 {
+    border-bottom: 1px solid var(--gx-accent);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+/* Inbox Header */
+.channelHeader__996b5 {
+    background-color: var(--gx-main-bg);
+    border-top: 1px solid var(--gx-accent);
+    border-left: 1px solid var(--gx-accent);
+    border-right: 1px solid var(--gx-accent);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom: none;
+}
+
+/* Inbox Content Header */
+.header_ab6641 {
+    background-color: var(--gx-main-bg);
+}
+
+/* Inbox - Stay up to Date Tutorial Container */
+.tutorial__2692d {
+    background-color: var(--gx-main-bg);
+    border: 1px solid var(--gx-accent);
+}
+
+/* Inbox - Background begind Messages */
+.box_a86e6c {
+    background: transparent;
+    border: none;
+}
+
+/* Search Filters Container */
+.container__16eb0 {
+    background-color: var(--gx-main-bg);
+    border: 1px solid var(--gx-accent);
+}
+
+/* Pinned Messages Popout */
+.messagesPopout__432f4 {
+    background-color: var(--gx-main-bg);
+    border-left: 1px solid var(--gx-accent);
+    border-right: 1px solid var(--gx-accent);
+}
+
+/* Pinned Messages - Pins */
+.messagesPopout__432f4 .messageGroupWrapper__432f4 .messageGroupCozy__432f4 {
+    background-color: var(--gx-main-bg);
+    border-radius: 10px;
+    border: 1px solid var(--gx-accent);
+    margin-inline-start: 0 !important;
+}
+
+/* Inbox Message Wrapper */
+.messageGroupWrapper__432f4 {
+    background-color: var(--gx-main-bg);
+}
+
+/* Pinned Messages - Header */
+.header__432f4 {
+    background-color: var(--gx-main-bg);
+    border-left: 1px solid var(--gx-accent);
+    border-top: 1px solid var(--gx-accent);
+    border-right: 1px solid var(--gx-accent);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: none;
+}
+
+/* Thread Posts */
+.container__6764b {
+    background-color: var(--gx-main-bg);
+    border: 1px solid var(--gx-accent);
+}
+
+/* Forum Post - Opened */
+.container_faa96b.isOpen_faa96b {
+    background-color: var(--gx-main-bg);
+    border: 1px solid var(--gx-accent2);
+}
