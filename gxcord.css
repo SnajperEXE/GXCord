@@ -142,7 +142,7 @@
     clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
 }
 
-.unreadPill__908e2:not {
+.unreadPill__908e2 {
     background-color: var(--gx-accent) !important;
     color: var(--gx-main-bg);
 }
@@ -203,10 +203,6 @@ nav[class*="guilds_"]::after {
     border-inline-start: none;
     background-color: var(--gx-main-bg);
     border-top: none !important;
-}
-
-.container__2637a {
-    border-top: 1px solid var(--gx-accent);
 }
 
 .sidebarListRounded__5e434 {
@@ -446,6 +442,7 @@ foreignObject {
 
 .primary_a22cb0 { /* Removes the border from primary buttons */
     border: none;
+    background-color: transparent;
 }
 
 .mainCard_f369db {
@@ -627,10 +624,6 @@ button:has(path[d^="M19.3 20.7a1 1 0 0 0 1.4-1.4"]) .buttonChildrenWrapper_a22cb
     background: transparent !important;
 }
 
-.content_b6bcee {
-    background-color: var(--gx-main-bg);
-}
-
 .overlay-primary_a22cb0 {
     background-color: transparent !important;
     border: none;
@@ -682,12 +675,6 @@ button:has(path[d^="M19.3 20.7a1 1 0 0 0 1.4-1.4"]) .buttonChildrenWrapper_a22cb
     font-weight: 500;
     letter-spacing: .35em;
     color: color-mix(in srgb, var(--gx-accent) 70%, transparent);
-}
-
-/* Primary Buttons */
-
-.primary_a22cb0 { /* Removes the unnecessary discord's default background color for primary buttons */
-    background-color: transparent;
 }
 
 /* Primary Buttons - Hover */
@@ -1137,7 +1124,7 @@ color: var(--gx-text-normal);
     transition: .15s ease;
 }
 
-.membersWrap_c8ffbbm { /* Member List Wrapper */
+.membersWrap_c8ffbb { /* Member List Wrapper */
     background-color: var(--gx-main-bg) !important;
 }
 
@@ -1169,6 +1156,7 @@ color: var(--gx-text-normal);
 /* Channel List */
 .container__2637a {
     animation: gxChannelSlide .18s ease-out;
+    border-top: 1px solid var(--gx-accent);
 }
 
 /* Chat Messages */
@@ -1235,7 +1223,7 @@ color: var(--gx-text-normal);
     will-change: transform, opacity;
 }
 
-/* Expression Picker Animations *//
+/* Expression Picker Animations */
 @keyframes gxPopup {
     from {
         opacity: 0;
@@ -1315,10 +1303,9 @@ color: var(--gx-text-normal);
 .tooltip_fa450d {
     background: var(--gx-accent);
     backdrop-filter: blur(3px);
-
+}
 .caretIcon_fa450d .caretFill_fa450d {
         fill: var(--gx-accent);
-    }
 }
 
 /* Tooltip - Text */
@@ -1410,7 +1397,7 @@ color: var(--gx-text-normal);
 
 /* Role Permission Controls */
 .item__344e6,
-passthrough__344e6, /* Default (/) */
+.passthrough__344e6, /* Default (/) */
 .passthrough__344e6.selected__344e6, /* Default Selected (/) */
 .allow__344e6, /* Enabled (✓) */
 .allow__344e6.selected__344e6, /* Enabled Selected (✓) */
@@ -1510,7 +1497,7 @@ passthrough__344e6, /* Default (/) */
     background-color: var(--gx-main-bg);
     border-left: 1px solid var(--gx-accent);
     border-right: 1px solid var(--gx-accent);
-    border-bottom: 1px solod var(--gx-accent);
+    border-bottom: 1px solid var(--gx-accent);
     display: grid;
 }
 
