@@ -1599,3 +1599,73 @@ passthrough__344e6, /* Default (/) */
     background-color: var(--gx-main-bg);
     border: 1px solid var(--gx-accent2);
 }
+
+/* Add to Channel List Header */
+.chatHeaderBar_dc83f5 { /* This channel is not on your channel container/bar */
+    background: var(--gx-main-bg);
+    border: 1px solid var(--gx-accent);
+    border-radius: 100px;
+}
+
+/* Chat Contents and After */
+.chatContent_f75fb0, /* The Bg behing .chatHeaderBar */
+.chatHeaderBar_dc83f5:after {
+    background-color: transparent;
+}
+
+/* Server Boost Card Info */
+.card_a12047 {
+    background-color: var(--gx-main-bg);
+    border: 1px solid var(--gx-accent);
+}
+
+/* Server Boost Card Info Header */
+.cardHeader__1bfce {
+    background: var(--gx-main-bg);
+}
+
+/* Server Boost Card 1st Row */
+.boostRow__1bfce:not(.boostRowLast__1bfce) {
+    background-color: var(--gx-main-bg);
+}
+
+/* Server Boost Card Last Row */
+.boostRowLast__1bfce {
+    background: var(--gx-main-bg) !important;
+}
+
+/* Server Boost Card */
+.card__1bfce {
+    background: transparent;
+    border: 1px solid var(--gx-accent);
+}
+
+/* Boost Info Cards */
+.card__4b63d {
+    background: var(--gx-main-bg);
+    border-color: var(--gx-accent);
+    border-radius: 10px;
+}
+
+/* Boost Info Card - Nitro Icon */
+.icon__4b63d path {
+    fill: var(--gx-accent) !important;
+}
+
+/* Boosting FAQ Item List */
+.listItem_a04c02 {
+    background: var(--gx-main-bg);
+    border: 1px solid var(--gx-accent);
+}
+
+/* Share Nitro with Friends Container */
+.expandedProgressBarContainerSettingsPage__2c345 {
+    background: var(--gx-main-bg);
+    border: 1px solid var(--gx-accent);
+    box-shadow: 0 0 10px var(--gx-accent2);
+}
+
+/* Share With Nitro Header Text */
+.expandedProgressBarHeader__2c345 {
+    color: var(--gx-accent);
+}
