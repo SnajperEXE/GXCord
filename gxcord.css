@@ -844,27 +844,23 @@ color: var(--gx-text-normal);
     background-color: var(--gx-main-bg);
 }
 
-/* Vencord - Local Themes Tab (Selected) */
-.top_aa8da2 .item_aa8da2.selected_aa8da2 {
-    color: var(--gx-accent);
-}
+/* Tabs */
+.top_aa8da2 {
 
-/* Vencord - Local Themes Tab (Selected+After) */
-.top_aa8da2 .item_aa8da2.selected_aa8da2::after {
-    background: var(--gx-accent2);
-}
-/* Vencord - Local Themes Tab (Selected+Hover) */
-.top_aa8da2 .item_aa8da2.selected_aa8da2:hover {
-    color: var(--gx-accent2);
-}
-/* Vencord - Local Themes Tab (Not Selected) */
-.top_aa8da2 .item_aa8da2.brand_aa8da2:not(.item_aa8da2.selected_aa8da2) {
-    color: var(--gx-accent);
-}
+    /* Selected */
+    .item_aa8da2.selected_aa8da2 {
+        color: var(--gx-accent);
+    }
 
-/* Vencord - Local Themes Tab (Not Selected+After) */
-.top_aa8da2 .item_aa8da2.brand_aa8da2:not(.item_aa8da2.selected_aa8da2):after {
-    background: var(--gx-accent);
+    /* Selected ::after */
+    .item_aa8da2.selected_aa8da2::after {
+        background: var(--gx-accent2);
+    }
+
+    /* Selected :hover */
+    .item_aa8da2.selected_aa8da2:hover {
+        color: var(--gx-accent2);
+    }
 }
 
 .container__133bf,
@@ -1016,18 +1012,6 @@ color: var(--gx-text-normal);
 .channel__972a0:not(.dm__972a0) .interactiveSelected__972a0 .link__972a0 {
     background: var(--gx-accent);
     color: var(--gx-text-selected);
-    clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
-}
-
-/*Server Menu - Selected */
-.item_aa8da2.selected_aa8da2 {
-    background: var(--gx-accent) !important;
-    color: var(--gx-text-selected);
-}
-
-/*Server Menu - Hover */
-.side_aa8da2 .item_aa8da2:hover {
-    background: color-mix(in srgb, var(--gx-accent2) 35%, transparent) !important;
     clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
 }
 
