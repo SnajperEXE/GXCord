@@ -1638,3 +1638,27 @@ color: var(--gx-text-normal);
 .expandedProgressBarHeader__2c345 {
     color: var(--gx-accent);
 }
+
+/* Discord's Login Window */
+.centeringWrapper__921c5 {
+    background: var(--gx-main-bg);
+}
+
+/* Discord Theme Links */
+a[href="https://github.com/search?q=discord+theme"],
+a[href="https://betterdiscord.app/themes"] {
+    color: var(--gx-text-normal);
+}
+
+/* NEW Badge */
+.badge_c2b88c {
+    background: linear-gradient(90deg, var(--gx-accent) 0%, var(--gx-accent2) 100%);
+    color: var(--gx-text-selected);
+}
+
+/* Edit Group text */
+.anchor_edefb8 .text-md\/medium_cf4812 {
+    color: var(--gx-accent) !important;
+    background-color: color-mix(in oklab, var(--gx-accent), transparent 65%);
+    border-radius: 5px
+}
