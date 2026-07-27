@@ -1662,3 +1662,65 @@ a[href="https://betterdiscord.app/themes"] {
     background-color: color-mix(in oklab, var(--gx-accent), transparent 65%);
     border-radius: 5px
 }
+
+.container_c8ffbb {
+    background-color: var(--gx-main-bg);
+}
+
+.theme-dark {
+    background-color: var(--gx-main-bg);
+}
+
+/* Voice Channel Users Badge */
+.wrapper__260e1 {
+    background-color: var(--gx-main-bg);
+}
+
+/* Voice Channel - Current Users */
+.users__260e1 {
+    background-color: var(--gx-accent);
+    color: var(--gx-text-selected) !important;
+    font-weight: 600;
+}
+/* User Channel Badge - Divider */
+.total__260e1:after {
+    border-right-color: var(--gx-accent2);
+}
+
+/* Voice Channel - Max Users */
+.total__260e1 {
+    background-color: var(--gx-accent2);
+    color: var(--gx-text-selected) !important;
+    font-weight: 600;
+}
+
+.chatGradientBase__36d07 {
+    background: linear-gradient( to top, var(--gx-accent), var(--gx-accent2), transparent ) !important;
+    margin-left: 15px;
+}
+
+/* User Menu - Thumb (Selected, Secondary) */
+.thumb_e4d939 {
+    background-color: var(--gx-accent);
+}
+
+/* Voice Connected Container */
+.container_e131a9 {
+    background: var(--gx-main-bg);
+    border: 1px solid var(--gx-accent)
+}
+
+/* Wrapper behind User Panel & Voice Connected and Activity Panel */
+.panels__5e434 { /* Since background affect also user panel container, we will fix it in the css below */
+    background-color: transparent !important;
+}
+
+/* User Panel Container */
+.container__37e49 { /* Restore background behind this container while other panels above use transparent background */
+    background-color: var(--background-gradient-highest, var(--background-base-low));
+}
+
+/* Voice Connected - Buttons */
+.container_e131a9 .lottieIcon__5eb9b svg {
+    color: var(--gx-main-bg) !important;
+}
