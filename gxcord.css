@@ -34,6 +34,7 @@
 .container__34c2c,
 .scroller__6131a,
 .navScroller__409aa,
+.container_e131a9 .lottieIcon__5eb9b svg, /* Voice Connected - Buttons */
 .header_fed6d3, /* Expression Picker */
 .contentHeader_e9e3ed,  /* Settings - Account Header */
 .contentWrapper__08434, /* Gifs Popup */
@@ -1720,7 +1721,57 @@ a[href="https://betterdiscord.app/themes"] {
     background-color: var(--background-gradient-highest, var(--background-base-low));
 }
 
-/* Voice Connected - Buttons */
-.container_e131a9 .lottieIcon__5eb9b svg {
-    color: var(--gx-main-bg) !important;
+/* Quest Panel */
+
+.contentExpanded__24e2c { /* makes the Quest Panel open smoother */
+    transition: opacity .25s ease, transform .25s ease;
+}
+
+.contentCollapsedWrapper__7004f { /* makes the Quest Panel close smoother */
+    transition: opacity .25s ease, transform .25s ease;
+}
+
+/* Profile Popup - Playing Card */
+.card__39ec2 {
+    background-color: var(--gx-main-bg);
+    border: 1px solid var(--gx-accent);
+}
+
+/* Profile Popup - Playing Card - Text */
+.card__39ec2 .overflow_b0dfc2 {
+    color: var(--gx-accent);
+}
+
+/* Profile Popup - Playing Card - Time playing */
+.tabularNumbers__4bd52 {
+    background: linear-gradient(90deg, var(--gx-accent) 0%, var(--gx-accent2));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    animation: gxTick .4s ease;
+}
+
+/* Profile Popup - Playing Card - Game Name */
+.card__39ec2 .heading-sm\/semibold_cf4812 {
+    color: var(--gx-accent) !important;
+}
+
+@keyframes gxTick {
+    from { transform: scale(1.08); opacity: .6; }
+    to { transform: scale(1); opacity: 1; }
+}
+
+.secondary_a22cb0:hover { /* Removes the background behind secondary buttons */
+    background-color: transparent !important;
+    border-color: transparent;
+}
+
+/* Member Profile (not Nitro Profile) */
+.profile__9c3be:not(.custom-user-profile-theme .profile__9c3be) {
+    background-color: color-mix(in srgb, var(--gx-main-bg) 95%, white) !important;
+}
+
+:where(.banner__68edb):before {
+    border-bottom: 1px solid var(--gx-accent);
 }
