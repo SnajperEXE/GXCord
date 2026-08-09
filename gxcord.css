@@ -1776,3 +1776,38 @@ a[href="https://betterdiscord.app/themes"] {
 :where(.banner__68edb):before {
     border-bottom: 1px solid var(--gx-accent);
 }
+
+/* Event Cards */
+.card__88264 {
+    background-color: var(--gx-main-bg);
+    border: 1px solid var(--gx-accent);
+    border-radius: 10px;
+}
+
+/* Event Cards - Hover */
+.card__88264:hover {
+    background-color: color-mix(in srgb, var(--gx-main-bg), white 10%);
+    border: 1px solid var(--gx-accent);
+    border-radius: 10px;
+}
+
+
+/* Event Cards Thumbnails */
+.thumbnail_b5010b {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* Event Cards - Divider */
+.divider__88264 {
+    display: unset;
+}
+
+.divider__88264:hover {
+    display: unset;
+}
+
+/* Disable Account Button */
+.critical-secondary_a22cb0 {
+    background-color: transparent;
+}
