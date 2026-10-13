@@ -7,6 +7,7 @@
 .shop__08415, /* Discord's Shop Page */
 .container_f369db, /* Forum Posts */
 .form_f75fb0, /* Chat Input Inner */
+.scroller_affa7e, /* Voice Chat Backgroánd */
 .container__2637a, /* Channel List */
 .messagesWrapper__36d07, /* Chat */
 .nowPlayingColumn__133bf, /* Now Playing Column */
@@ -40,6 +41,7 @@
 .contentHeader_e9e3ed,  /* Settings - Account Header */
 .contentWrapper__08434, /* Gifs Popup */
 .sidebar__5e434::after,
+sidebar__5e434, /* Sidebar */
 .vc-notification, /* Vencord Notificaiton Card */
 .sidebarResizeHandle__5e434,
 .sidebarRegionScroller__23e6b,
@@ -804,8 +806,7 @@ color: var(--gx-text-normal);
 }
 
 
-.scroller__6b0e0,
-.scroller_affa7e {
+.scroller__6b0e0 {
     background-color: var(--gx-main-bg);
 }
 
