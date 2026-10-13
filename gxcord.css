@@ -1669,10 +1669,6 @@ a[href="https://betterdiscord.app/themes"] {
     background-color: var(--gx-main-bg);
 }
 
-.theme-dark {
-    background-color: var(--gx-main-bg);
-}
-
 /* Voice Channel Users Badge */
 .wrapper__260e1 {
     background-color: var(--gx-main-bg);
