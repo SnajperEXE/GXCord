@@ -5,18 +5,18 @@
 .content_b6bcee, /* Quests page */
 .aside_f58343, /* Profile Frames Background */
 .shop__08415, /* Discord's Shop Page */
-.container_f369db, /* Forum Posts */
+.container_BkGrJJ, /* Forum Posts */
 .form_f75fb0, /* Chat Input Inner */
 .scroller_affa7e,
 .videoGrid_a21736, /* Voice Chat Backgroánd */
 .container__2637a, /* Channel List */
-.messagesWrapper__36d07, /* Chat */
-.nowPlayingColumn__133bf, /* Now Playing Column */
-.scroller__99e7c, /* Friend List & Direct Messages */
-.peopleColumn__133bf, /* Online Friends */
-.mainPageScroller__80907, /* Nitro Home Page */
+.messagesWrapper_8AE1Qq, /* Chat */
+[class*=nowPlayingColumn_"], /* Now Playing Column */
+.scroller_Bce46W, /* Friend List & Direct Messages */
+.peopleColumn_zrUwGA, /* Online Friends */
+.mainPageScroller_IRnLy8, /* Nitro Home Page */
 .privateChannels_e6b769, /* Friends List - Footer */
-.members_c8ffbb { /* Member List */
+.members_86es0b { /* Member List */
     background: linear-gradient(var(--gx-main-bg), var(--gx-accent)), var(--gx-image-bg) !important;
     background-size: cover !important;
     background-position: center;
@@ -28,6 +28,7 @@
 
 /* BACKGROUNDS */
 .childContainer__91a9d,
+.container__2637a, /* Channel List */
 .resizeHandle__01ae2,
 .container__8a031,
 .container_d9c882,
@@ -37,12 +38,15 @@
 .container__34c2c,
 .scroller__6131a,
 .navScroller__409aa,
+.wrapper_6AvvhR, /* Expression Picker - Server List */
 .container_e131a9 .lottieIcon__5eb9b svg, /* Voice Connected - Buttons */
-.header_fed6d3, /* Expression Picker */
+.wrapper_kSdzCr, /* Expression Picker */
+.contentWrapper_58b0l2, /* Expression Picker - Inner Background */
 .contentHeader_e9e3ed,  /* Settings - Account Header */
 .contentWrapper__08434, /* Gifs Popup */
 .sidebar__5e434::after,
-sidebar__5e434, /* Sidebar */
+.title_3zSH5d, /* Server Header Title */
+.sidebar__5e434, /* Sidebar */
 .vc-notification, /* Vencord Notificaiton Card */
 .sidebarResizeHandle__5e434,
 .sidebarRegionScroller__23e6b,
@@ -51,8 +55,7 @@ sidebar__5e434, /* Sidebar */
 .parentContainer__5573a:hover .container__5573a {
     background: var(--gx-main-bg) !important;
     background-attachment: fixed !important;
-}
-
+}   
 /* Members Container */
 .container__7641b {
     border-inline-start: none !important;
@@ -71,6 +74,18 @@ sidebar__5e434, /* Sidebar */
 /* Channel Name (Hover) */
 .name__2ea32:not(.modeSelected__2ea32):hover {
     color: var(--gx-accent);
+}
+
+/* Server Title (above channel list */
+.header_XH4OpX {
+    background: var(--gx-main-bg);
+    border-top: 1px solid var(--gx-accent);
+    border-bottom: none !important;
+}
+
+/* Server Icons */
+.wrapper_hqZPsU {
+    border-radius: 8px;
 }
 
 .link__2ea32 {
@@ -243,7 +258,7 @@ nav[class*="guilds_"]::after {
     background: transparent;
 }
 
-.member_c8ffbb:not(.nameplated__91a9d) {
+.members_86es0b:not(.nameplated__91a9d) {
     background-color: transparent !important;
 }
 
@@ -299,7 +314,7 @@ foreignObject {
     color: var(--gx-accent);
 }
 
-.children__9293f:after {
+.children_ybUK7Z:after {
     background: transparent !important;
 }
 
@@ -1112,7 +1127,7 @@ color: var(--gx-text-normal);
     transition: .15s ease;
 }
 
-.membersWrap_c8ffbb { /* Member List Wrapper */
+.membersWrap_86es0b { /* Member List Wrapper */
     background-color: var(--gx-main-bg) !important;
 }
 
