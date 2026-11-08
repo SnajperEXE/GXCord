@@ -1,5 +1,5 @@
 /* Custom Background Image - Seamless via viewport-fixed positioning */
-[class*="subtitleContainer_"] section[class*="title_"], /* Header above chat */
+.subtitleContainer_z_gUBg, /* Header above chat */
 .container__551b0, /* Discover Page Sidebar Menu */
 .content_f75fb0, /* Message Requests Page */
 .content_b6bcee, /* Quests page */
@@ -8,9 +8,9 @@
 .container_BkGrJJ, /* Forum Posts */
 .form_f75fb0, /* Chat Input Inner */
 .scroller_affa7e,
-.videoGrid_a21736, /* Voice Chat Backgroánd */
-.container__2637a, /* Channel List */
-.messagesWrapper_8AE1Qq, /* Chat */
+.videoGrid_a21736, /* Voice Chat Background */
+.container_H5ozaj, /* Channel List */
+.chatContent_z_gUBg, /* Chat */
 [class*=nowPlayingColumn_"], /* Now Playing Column */
 .scroller_Bce46W, /* Friend List & Direct Messages */
 .peopleColumn_zrUwGA, /* Online Friends */
@@ -28,7 +28,6 @@
 
 /* BACKGROUNDS */
 .childContainer__91a9d,
-.container__2637a, /* Channel List */
 .resizeHandle__01ae2,
 .container__8a031,
 .container_d9c882,
@@ -44,7 +43,7 @@
 .contentWrapper_58b0l2, /* Expression Picker - Inner Background */
 .contentHeader_e9e3ed,  /* Settings - Account Header */
 .contentWrapper__08434, /* Gifs Popup */
-.sidebar__5e434::after,
+.sidebar_pog62O:after, /* Sidebar - Footer (behind User Panel */
 .title_3zSH5d, /* Server Header Title */
 .sidebar__5e434, /* Sidebar */
 .vc-notification, /* Vencord Notificaiton Card */
@@ -52,6 +51,7 @@
 .sidebarRegionScroller__23e6b,
 .contentRegionShownSidebar__23e6b,
 .sidebarRegion__23e6b,
+.formWithLoadedChatInput_z_gUBg:before,
 .parentContainer__5573a:hover .container__5573a {
     background: var(--gx-main-bg) !important;
     background-attachment: fixed !important;
@@ -61,7 +61,6 @@
     border-inline-start: none !important;
     background-color: var(--gx-main-bg);
 }
-
 /* Channel Name */
 .name__2ea32:not(.modeSelected__2ea32) {
     color: var(--gx-text-normal);
@@ -182,7 +181,7 @@
 }
 
 .container__9293f,
-[class*="Container_"] section[class*="title_"]::before {
+.subtitleContainer_z_gUBg::before {
     content: "";
     position: absolute;
     left: 0;
@@ -1157,7 +1156,7 @@ color: var(--gx-text-normal);
 /* Smooth Animations on Server Switch */
 
 /* Channel List */
-.container__2637a {
+.container_H5ozaj {
     animation: gxChannelSlide .18s ease-out;
     border-top: 1px solid var(--gx-accent);
 }
